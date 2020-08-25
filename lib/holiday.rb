@@ -85,6 +85,7 @@ holiday_hash. each do |seasons, holidays|
     arr << holiday
 end
 end
+end
 
 
 
