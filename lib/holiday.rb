@@ -77,6 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
   # supplies.join(",")
      
 end
+holiday_hash
 end
 
 
