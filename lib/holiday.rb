@@ -73,9 +73,10 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each do |seasons, holidays|
     puts "#{seasons.titleize}"
-  gsub("_", " ")
-  supplies.join(",")
+  # gsub("_", " ")
+  # supplies.join(",")
      
+end
 end
 
 
