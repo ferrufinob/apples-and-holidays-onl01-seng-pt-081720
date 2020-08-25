@@ -77,10 +77,11 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_pretty = (holiday.to_s).gsub("_", " ").capitalize
       supplies_pretty = supplies.join(", ")
       puts "#{holiday_pretty}: #{supplies_pretty}"
-     
+ end    
 end
 holiday_hash
 end
+
 
 
 def all_holidays_with_bbq(holiday_hash)
