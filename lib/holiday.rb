@@ -78,7 +78,7 @@ def all_supplies_in_holidays(holiday_hash)
       # holiday_pretty = []
       # split_hol.each do |s|
         
-      holiday_pretty =((holiday.to_s).gsub("_", ""))
+      holiday_pretty =((holiday.to_s).gsub("_", "")).split.map(&:capitalize)*' '
       puts "  #{holiday_pretty}: #{supplies_pretty}"
  end    
 end
