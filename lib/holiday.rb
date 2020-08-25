@@ -83,7 +83,7 @@ arr = []
 holiday_hash.each do |seasons, holidays|
    holidays.each do |holiday, supply|
   if holiday.include?("BBQ")
-    arr << holiday
+    arr << supply
 end
 end
 end
