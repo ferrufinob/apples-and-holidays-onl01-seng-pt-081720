@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-puts holiday_hash.inspect
+y holiday_hash
      
 end
 
